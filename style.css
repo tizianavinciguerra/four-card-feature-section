@@ -1,0 +1,94 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+h1 {
+  font-weight: 600;
+  margin-top: -1.5rem;
+}
+
+h2, p {
+  text-align: left;
+}
+
+.container {
+  margin: 2rem auto;
+  position: relative;
+  width: 82rem;
+  height: 36rem;
+}
+
+.card {
+  -webkit-box-shadow: 5px 5px 26px 0px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 5px 5px 26px 0px rgba(0, 0, 0, 0.52);
+  box-shadow: 5px 5px 26px 0px rgba(0, 0, 0, 0.52);
+  border-radius: 5%;
+  padding: 2rem;
+  position: absolute;
+  width: 22rem;
+  height: 13rem;
+}
+
+img {}
+
+.tools {
+  margin-bottom: 4rem;
+}
+
+.thin {
+  font-weight: 200;
+  size: 15px;
+  color: #A9A9A9
+}
+
+.top {
+  font-weight: 400;
+  color: #A9A9A9
+}
+
+.supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+  top: 9rem;
+}
+
+.builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+  left: 28rem;
+}
+
+.karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+  left: 28rem;
+  bottom: 0;
+}
+
+.calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+  right: 0;
+  top: 9rem;
+}
+
+@media screen and (max-width: 93rem) {
+  .container {
+    width: 29rem;
+    position: inherit;
+    height: 80rem;
+  }
+
+  .card {
+    position: inherit;
+    margin-bottom: 2rem;
+  }
+}
