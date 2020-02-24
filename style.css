@@ -26,7 +26,7 @@ h2, p {
 .container {
   margin: 2rem auto;
   position: relative;
-  width: 82rem;
+  width: 83.5rem;
   height: 36rem;
 }
 
@@ -39,6 +39,7 @@ h2, p {
   position: absolute;
   width: 22rem;
   height: 13rem;
+  margin-left: 25px;
 }
 
 img {}
